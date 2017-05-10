@@ -49,6 +49,7 @@ exports.appBase = class appBase
 
 		# Create FlowComponent
 		flow = new FlowComponent
+			backgroundColor: "#ffffff"
 		flow.header = @header
 		flow.footer = @menu
 		flow.showNext(@layers[0])
