@@ -3,12 +3,12 @@ A Framer module to create the base of an app with a **flow component** and a **t
 
 ![framer-app-base demo ](docs/demo.gif)
 
-##Installation
+## Installation
 1. Download the `appBase.coffee` file
 2. Create a Framer project and add the file in `/modules`
 3. At the top of the Framer document write `base = require "appBase"`
 
-##Usage
+## Usage
 create a new object appBase with the following arguments
 1. Array of layers for the different pages
 2. the header layers
@@ -16,7 +16,7 @@ create a new object appBase with the following arguments
 
     new base.appBase([array of layers], header, menu)
 
-##Example
+## Example
 
     # Require the module
     base = require "appBase"
@@ -96,8 +96,8 @@ create a new object appBase with the following arguments
     new base.appBase([layer1,layer2,layer3,layer4], layerHeader, layerMenu)
 
 
-##License
+## License
 Framer-app-base is released under the MIT license.
 
-##Contact
+## Contact
 Twitter: [@benjarier](https://twitter.com/benjarier)
