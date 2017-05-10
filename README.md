@@ -14,7 +14,7 @@ create a new object appBase with the following arguments
 2. the header layers
 3. the tab bar layer. Its children are the tab elements. The tabs are layers initially in their **selected state** color, the module takes care of graying them out and keeping only the selected tab in color.
 
-    new base.appBase([array of layers], header, menu)
+    `new base.appBase([array of layers], header, menu)`
 
 ## Example
 
