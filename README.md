@@ -17,12 +17,12 @@ create a new object appBase with the following arguments
     `new base.appBase([array of layers], header, menu)`
 
 ## Example
+```coffeescript
+# Require the module
+base = require "appBase"
 
-    # Require the module
-    base = require "appBase"
-
-    # Create a series of layers that will become the pages
-    layer1 = new Layer
+# Create a series of layers that will become the pages
+layer1 = new Layer
     backgroundColor: "#ffffff"
     size: Screen.size
     text1 = new TextLayer
@@ -34,7 +34,7 @@ create a new object appBase with the following arguments
     x: Align.center
     y: Align.center
 
-    layer2 = new Layer
+layer2 = new Layer
     backgroundColor: "#ffffff"
     size: Screen.size
     text2 = new TextLayer
@@ -46,7 +46,7 @@ create a new object appBase with the following arguments
     x: Align.center
     y: Align.center
 
-    layer3 = new Layer
+layer3 = new Layer
     backgroundColor: "#ffffff"
     size: Screen.size
     text3 = new TextLayer
@@ -58,7 +58,7 @@ create a new object appBase with the following arguments
     x: Align.center
     y: Align.center
 
-    layer4 = new Layer
+layer4 = new Layer
     backgroundColor: "#ffffff"
     size: Screen.size
     text4 = new TextLayer
@@ -70,20 +70,20 @@ create a new object appBase with the following arguments
     x: Align.center
     y: Align.center
 
-    # Create the header
-    layerHeader = new Layer
+# Create the header
+layerHeader = new Layer
     width: 750
     height: 40
     image: "images/statusbar.png"
 
-    # Create the menu
-    layerMenu = new Layer
+# Create the menu
+layerMenu = new Layer
     width: 750
     height: 103
     backgroundColor: "#f7f7f7"
 
-    # Create the menu elements
-    for i in [0...4]
+# Create the menu elements
+for i in [0...4]
     menuEl = new Layer
         parent: layerMenu
         width: 54
@@ -92,9 +92,9 @@ create a new object appBase with the following arguments
         y: 24
         x: 66 + 188*i
 
-    # Create the app base
-    new base.appBase([layer1,layer2,layer3,layer4], layerHeader, layerMenu)
-
+# Create the app base
+new base.appBase([layer1,layer2,layer3,layer4], layerHeader, layerMenu)
+```
 
 ## License
 Framer-app-base is released under the MIT license.
