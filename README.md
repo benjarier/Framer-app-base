@@ -25,7 +25,7 @@ base = require "appBase"
 layer1 = new Layer
     backgroundColor: "#ffffff"
     size: Screen.size
-    text1 = new TextLayer
+text1 = new TextLayer
     text: "Page 1"
     textTransform: "uppercase"
     fontWeight: 700
@@ -37,7 +37,7 @@ layer1 = new Layer
 layer2 = new Layer
     backgroundColor: "#ffffff"
     size: Screen.size
-    text2 = new TextLayer
+text2 = new TextLayer
     text: "Page 2"
     textTransform: "uppercase"
     fontWeight: 700
@@ -49,7 +49,7 @@ layer2 = new Layer
 layer3 = new Layer
     backgroundColor: "#ffffff"
     size: Screen.size
-    text3 = new TextLayer
+text3 = new TextLayer
     text: "Page 3"
     textTransform: "uppercase"
     fontWeight: 700
@@ -61,7 +61,7 @@ layer3 = new Layer
 layer4 = new Layer
     backgroundColor: "#ffffff"
     size: Screen.size
-    text4 = new TextLayer
+text4 = new TextLayer
     text: "Page 4"
     textTransform: "uppercase"
     fontWeight: 700
